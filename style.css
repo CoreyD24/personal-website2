@@ -26,15 +26,15 @@ a {
 }
 
 a:hover{
-   font: 120%;
+   font: xx-large;
 }
 
-a:active{
+a:link{
    color: rgb(255, 255, 255);
 }
 
 a:visited{
-   color: #aaaaaa;
+   color: #696969;
 }
 
 img {
@@ -49,5 +49,9 @@ img {
 
 article {
    border: solid;
-   padding: 1.5em;
+   padding: 1em;
+}
+
+section{
+   padding: 20px;
 }
