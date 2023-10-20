@@ -16,6 +16,8 @@ nav > h2{
    font-family:Georgia, 'Times New Roman', Times, serif;
    font-weight: lighter;
    font-size: 2em;
+   text-decoration: none;
+   text-shadow: 3px 3px 4px black;
 }
 
 nav {
@@ -25,6 +27,7 @@ nav {
    color: rgb(255, 255, 255);
    padding: 10px;
    font-size: x-large;
+   text-align: center;
 }
 
 a {
@@ -49,8 +52,8 @@ img {
 }
 
 #about1{
-   height: 504px; 
-   width: 672px;
+   height: auto; 
+   width: 50%;
 }
 
 #port1{
@@ -99,12 +102,11 @@ label{
 
 #comments{
    height: 5em;
-   resize: both;
+   resize: none;
    width: 30em;
 }
 #notreal{
    margin-top: 20px;
-   width: fit-content;
 }
 
 #quote{
@@ -113,4 +115,8 @@ label{
    text-align: center;
    text-shadow: 2px 2px 4px #afafaf;
    font-family: "Lucida Handwriting", "Courier New", monospace;
+}
+
+h2{
+   text-decoration: underline 3px;
 }
