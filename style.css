@@ -2,6 +2,7 @@
    width: 90vw;
    margin-left: auto;
    margin-right: auto;
+   font-family:'Courier New', Courier, monospace
 }
 
 body{
@@ -10,23 +11,28 @@ body{
    font-size: large;
 }
 
+nav > h2{
+   color: #c0c0c0;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-weight: lighter;
+   font-size: 2em;
+}
+
 nav {
    display: flex;
-   justify-content: space-evenly;
-   align-items:center; 
+   align-items: center; 
    background-color: #2a3d45;
    color: rgb(255, 255, 255);
    padding: 10px;
    font-size: x-large;
 }
 
-
 a {
    text-decoration: none;
 }
 
 a:hover{
-   font: xx-large;
+   font-size: xx-large;
 }
 
 a:link{
@@ -34,7 +40,7 @@ a:link{
 }
 
 a:visited{
-   color: #696969;
+   color: #000000;
 }
 
 img {
@@ -42,16 +48,69 @@ img {
    object-fit: contain;
 }
 
-.project {
+#about1{
+   height: 504px; 
+   width: 672px;
+}
+
+#port1{
+   height: 383px; 
+   width: 447px;
+}
+
+#port2{
+   height: 580px; 
+   width: 535px;
+}
+
+div {
    display: flex;
    flex-direction: column;
 }
 
 article {
-   border: solid;
-   padding: 1em;
+   border: ridge black 5px; 
 }
 
-section{
-   padding: 20px;
+section {
+   padding-left: 15px;
+}
+
+form {
+   width: fit-content;
+   display: flex;
+   flex-direction:column;
+   text-wrap: wrap;
+}
+
+input {
+   width: 30em;
+}
+
+label{
+   width: fit-content;
+}
+
+#submit {
+   background-color: DDC9B4;
+   cursor:pointer;
+   width: fit-content;
+}
+
+#comments{
+   height: 5em;
+   resize: both;
+   width: 30em;
+}
+#notreal{
+   margin-top: 20px;
+   width: fit-content;
+}
+
+#quote{
+   margin-top: 15em;
+   font-size: 40px;
+   text-align: center;
+   text-shadow: 2px 2px 4px #afafaf;
+   font-family: "Lucida Handwriting", "Courier New", monospace;
 }
